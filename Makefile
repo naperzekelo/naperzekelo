@@ -1,0 +1,4 @@
+# Makefile
+
+TARGET = naperzekelo
+
