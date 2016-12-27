@@ -1,0 +1,2 @@
+# naperzekelo
+Egy napfény érzékelő
