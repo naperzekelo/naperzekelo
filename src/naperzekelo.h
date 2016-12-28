@@ -7,6 +7,8 @@ extern "C" {
 
 #include <stdio.h>
 
+#include <wiringPi.h>
+
 #define NE_APP_NAME "naperzekelo"
 #define NE_SENSOR_NUMBER 5
 #define NE_DECLARE(type) type

@@ -5,7 +5,7 @@ TARGET = naperzekelo
 CC       = gcc
 CFLAGS   = -std=c99 -Wall -I.
 LINKER   = gcc -o
-LFLAGS   = -Wall -I. -lm
+LFLAGS   = -Wall -I. -lm -lwiringPi
 
 SRCDIR   = src
 OBJDIR   = obj

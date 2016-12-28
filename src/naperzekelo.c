@@ -3,6 +3,8 @@
 int main(int arc, char* argv[]) {
 	printf("-- %s --\n", NE_APP_NAME);
 
+	wiringPiSetup();
+
 	ne_values_t rv = ne_read_values(X, RIGHT);
 	printf("-- center: %f, [", rv.center);
 	int n = sizeof(rv.va)/sizeof(rv.va[0]);
