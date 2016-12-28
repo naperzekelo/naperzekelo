@@ -32,9 +32,9 @@ typedef struct {
 	float va;
 } ne_value_t;
 
-NE_DECLARE(ne_values_t) ne_read_values(ne_axles_t axle, ne_axle_sides_t side); // apr_pool_t *a, const void *m, apr_size_t n)
-NE_DECLARE(ne_value_t) ne_read_min_value(ne_values_t va); // apr_pool_t *a, const void *m, apr_size_t n)
-NE_DECLARE(ne_value_t) ne_read_max_value(ne_values_t va); // apr_pool_t *a, const void *m, apr_size_t n)
+NE_DECLARE(ne_values_t) ne_read_values(ne_axles_t axle, ne_axle_sides_t side);
+NE_DECLARE(ne_value_t) ne_read_min_value(ne_values_t va);
+NE_DECLARE(ne_value_t) ne_read_max_value(ne_values_t va);
 
 #ifdef __cplusplus
 }
